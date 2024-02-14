@@ -8,9 +8,9 @@ for i in f:
     a.append(b)
 print(*a, sep='\n')
 
-j = input('Введите название корабля: ')
+j = input('Введите название корабля: ') #Считываем название корабля
 while j != 'stop':
-    tf = False
+    tf = False #проверка наличия корабля
     for i in a:
         if i[0] == j:
             tf = True
